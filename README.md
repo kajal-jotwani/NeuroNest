@@ -1,4 +1,7 @@
+<img width="1470" alt="Screenshot 2024-11-10 at 1 23 55 AM" src="https://github.com/user-attachments/assets/9444dccc-7183-42da-899a-44181fdfb55d">
+
 # NeuroNest: A Sanctuary for Neurodivergent Minds to Learn and Flourish
+
 
 **NeuroNest** is an inclusive learning platform designed to create a safe, engaging, and accessible space for neurodivergent students. This platform is built to support learners with ADHD, dyslexia, and other neurological differences by providing personalized educational tools and fun, interactive games. Our goal is to help students thrive by making learning enjoyable, manageable, and stress-free.
 
@@ -7,6 +10,10 @@
 ## 🌟 Project Intentions
 
 The idea for **NeuroNest** emerged from a deep desire to make the learning experience more inclusive for students with neurological differences. We understand that traditional educational methods may not work for everyone, especially for students with ADHD, dyslexia, and other cognitive challenges. These students often face difficulties with focus, processing speed, emotional regulation, and retention of information. Yet, they possess unique strengths — creativity, innovation, and boundless energy — that can be harnessed to make learning both effective and enjoyable.
+
+
+<img width="1470" alt="Screenshot 2024-11-10 at 1 20 56 AM" src="https://github.com/user-attachments/assets/68e5dc5c-5b99-45e7-8666-239c78147a01">
+
 
 **NeuroNest** was created with the intention of:
 
@@ -30,6 +37,9 @@ The idea for **NeuroNest** emerged from a deep desire to make the learning exper
 - **Puzzle Solving & Shape Recognition**: Strengthen cognitive abilities and problem-solving skills.
 - **Reaction Time Tester**: Help students improve their attention span and reaction time with fun challenges.
 
+  <img width="1470" alt="Screenshot 2024-11-10 at 1 26 28 AM" src="https://github.com/user-attachments/assets/08a052ea-67fe-43eb-b289-45cb24f7f7c0">
+
+
 ### 3. **Progress Tracking & Feedback**
 - Track learning progress with insightful reports for students, parents, and educators.
 - Provide actionable feedback to support continued learning growth.
@@ -39,7 +49,10 @@ The idea for **NeuroNest** emerged from a deep desire to make the learning exper
 - Compatibility with screen readers and assistive technology.
 - Fully responsive, ensuring learning can take place anywhere — whether on a laptop, tablet, or mobile phone.
 
+
+
 ---
+
 
 ## 💡 Why NeuroNest Matters
 
@@ -79,6 +92,10 @@ These games are more than just fun; they’re a powerful tool for building essen
 3. **Track Your Progress**: Receive insights into your learning journey through progress reports and feedback.
 4. **Continue to Grow**: Engage with new challenges, games, and content designed to help you excel!
 
+
+<img width="1470" alt="Screenshot 2024-11-10 at 1 27 39 AM" src="https://github.com/user-attachments/assets/cedf7ee6-9953-4b26-86db-14f33d571f25">
+
+
 ---
 
 ## 🌍 Target Audience
@@ -101,14 +118,6 @@ These games are more than just fun; they’re a powerful tool for building essen
 ## 🎯 Contributing
 
 We welcome contributions from developers, educators, and mental health professionals who are passionate about creating inclusive educational tools. If you're interested in contributing, please check out our [Contributing Guidelines](#) and [Code of Conduct](#).
-
----
-
-## 📬 Get In Touch
-
-- **Website**: [NeuroNest.com](#)
-- **Email**: contact@NeuroNest.com
-- **GitHub**: [NeuroNest GitHub](https://github.com/your-repo-link)
 
 ---
 
