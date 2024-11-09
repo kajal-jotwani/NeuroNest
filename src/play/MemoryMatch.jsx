@@ -42,6 +42,7 @@ const MemoryMatch = () => {
   }, [flippedIndices]);
 
   return (
+  <div className="games-dashboard">
     <div className="memory-match-container">
       <div className="game-card">
         <h1>Memory Match</h1>
@@ -63,6 +64,7 @@ const MemoryMatch = () => {
         </div>
         <div className="matched-count">Matched Pairs: {matchedPairs}</div>
       </div>
+    </div>
     </div>
   );
 };

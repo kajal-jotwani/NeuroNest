@@ -37,7 +37,7 @@ const PuzzleSlider = () => {
   };
 
   return (
-    <div>
+    <div className="games-dashboard">
       <h1>Puzzle Slider</h1>
       <div className="puzzle-grid">
         {puzzle.map((piece, index) => (
