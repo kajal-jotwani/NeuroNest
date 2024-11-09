@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: './',
   plugins: [react()],
-  base: './', // Replace 'NeuroNest' with your repository name
+   // Replace 'NeuroNest' with your repository name
 })
