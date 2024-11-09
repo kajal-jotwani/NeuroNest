@@ -1,17 +1,17 @@
 // * Components
-import CustomButton from "./CustomButton";
+// import CustomButton from "./CustomButton";
 
 // * Images
 import homeIllustration from "../media/illustration.png";
 
 // * MUI Components
-import { Box, Container, Typography, styled } from "@mui/material";
+import { Box, Button, Container, Typography, styled } from "@mui/material";
 
 // * MUI Icons
 
 // * Custom Styled Components
 const CustomContainer = styled(Container)(({ theme }) => ({
-  backgroundColor: "#17275F",
+  backgroundColor: "#c6eee8",
   height: "416px",
   borderRadius: "15px",
   display: "flex",
@@ -40,28 +40,31 @@ export default function Featured() {
       <CustomContainer>
         <Box>
           <Typography
-            sx={{ fontSize: "35px", color: "white", fontWeight: "700" }}
+            sx={{ fontSize: "35px", color: "black", fontWeight: "700" }}
           >
-            Featured Blogs
+            All you need to know
           </Typography>
           <Typography
-            sx={{ fontSize: "16px", color: "#ccc", fontWeight: "500", my: 3 }}
+            sx={{ fontSize: "16px", color: "#gray", fontWeight: "500", my: 3 }}
           >
-            Everything you need to know about houses!
+            Neurodivergent is a term used to describe individuals whose brain processes, learns, or behaves differently from what is typically expected. It recognizes that there is no one "normal" way for a brain to function, and that variations in thinking, learning, and behavior should be accepted and valued rather than pathologized.
           </Typography>
-
-          <CustomButton
-            backgroundColor="#fff"
-            color="#17275F"
-            buttonText="Get Started Now"
-            getStartedBtn={true}
-          />
+         <a href="https://my.clevelandclinic.org/health/symptoms/23154-neurodivergent"> <Button variant="contained" color="primary" sx={{ 
+          padding: "10px 30px", 
+          fontSize: "16px", 
+          fontWeight: "700", 
+          textTransform: "capitalize",
+          borderRadius: "15px",
+          backgroundColor: "gray",
+          "&:hover": {
+            backgroundColor: "black",
+          },
+         }}> Learn More </Button> </a>
         </Box>
-
         <img
           src={homeIllustration}
           alt="illustration"
-          style={{ maxWidth: "100%" }}
+          style={{ maxWidth: "50%" }}
         />
       </CustomContainer>
     </CustomBox>
