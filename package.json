@@ -5,12 +5,12 @@
   "type": "module",
   "homepage": "https://kajal-jotwani.github.io/NeuroNest",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "deploy": "vite build && gh-pages -d dist"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "deploy": "vite build && gh-pages -d dist"
+},
   "dependencies": {
     "@auth0/auth0-react": "^2.2.4",
     "@emotion/react": "^11.13.3",
