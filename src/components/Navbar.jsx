@@ -18,6 +18,7 @@ import {
   ListItemText,
   Typography,
   styled,
+  Link
 } from "@mui/material";
 
 // * MUI Icons
@@ -124,11 +125,8 @@ export default function Navbar() {
       </Box>
 
       <NavbarLinkBox>
-        <NavbarLink>Home</NavbarLink>
-        <NavbarLink>Features</NavbarLink>
-        <NavbarLink>Services</NavbarLink>
-        <NavbarLink>Products</NavbarLink>
-        <NavbarLink>About</NavbarLink>
+        <NavbarLink><Link href="/">Home</Link></NavbarLink>
+        <NavbarLink><Link href="/games">Games</Link></NavbarLink>
       </NavbarLinkBox>
 
       <Box sx={{ display: "flex", alignItems: "center", columnGap: 2 }}>

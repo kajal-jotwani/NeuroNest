@@ -1,18 +1,60 @@
-import React from "react";
 import "./GameCard.css";
+import { Box, Typography, Button  } from "@mui/material";
+import { styled } from "@mui/system";
 
-const GameCard = ({ name, image, description, onStart }) => (
-  <div className="game-card border rounded-lg p-4 shadow-lg">
-    <h2 className="text-lg font-bold mb-2">{name}</h2>
-    <img src={image} alt={name} className="w-full h-40 object-cover mb-2" />
-    <p className="text-sm mb-4">{description}</p>
-    <button
-      className="bg-blue-500 text-white py-2 px-4 rounded"
-      onClick={onStart}
-    >
-      Let's Start
-    </button>
-  </div>
-);
+const GameCard = ({ name, image, description, onStart }) => {
+  const CardBox = styled(Box)(({ theme }) => ({
+    borderRadius: "10px",
+    maxWidth: 350,
+    backgroundColor: "#fff",
+    boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
+    overflow: "hidden",
+    margin: theme.spacing(2),
+  }));
+
+  const ImgContainer = styled(Box)(() => ({
+    width: "100%",
+    height: "160px",
+    overflow: "hidden",
+  }));
+
+  const ContentBox = styled(Box)(() => ({
+    padding: "1rem",
+  }));
+
+  return (
+    <CardBox>
+      <ImgContainer>
+        <img
+          src={image}
+          alt={name}
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+          }}
+        />
+      </ImgContainer>
+
+      <ContentBox>
+        <Typography variant="h6" sx={{ fontWeight: "bold", mb: 1 }}>
+          {name}
+        </Typography>
+        <Typography variant="body2" sx={{ mb: 2 }}>
+          {description}
+        </Typography>
+        <Button
+          variant="contained"
+          color="primary"
+          onClick={onStart}
+          sx={{ textTransform: "none" }}
+        >
+          Let's Start
+        </Button>
+      </ContentBox>
+    </CardBox>
+  );
+};
+
 
 export default GameCard;

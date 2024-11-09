@@ -33,7 +33,7 @@ export default function Reviews() {
               mt: 2,
             }}
           >
-            More than 45,000 trust Besnik
+            More than 45,000 trust NeuroSpace
           </Typography>
         </Box>
         <Box>

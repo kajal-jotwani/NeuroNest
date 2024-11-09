@@ -1,7 +1,6 @@
 
 // * Components
 import Hero from "../components/Hero";
-import Reviews from "../components/Reviews";
 import Guide from '../components/Guide'
 import Properties from "../components/Properties";
 import MoreDetail from "../components/MoreDetail";
@@ -12,7 +11,6 @@ const Home = () => {
   return (
     <div>
       <Hero />
-      <Reviews />
       <Guide />
       <Properties />
       <MoreDetail />

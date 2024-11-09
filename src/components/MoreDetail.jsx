@@ -57,38 +57,6 @@ const SmallText = styled(Typography)(({ theme }) => ({
 export default function MoreDetail() {
   return (
     <Container sx={{ marginTop: 6 }}>
-      <CustomBox>
-        <img
-          src={houseCardImg}
-          alt="House Card Images"
-          style={{ maxWidth: "100%" }}
-        />
-        <Box>
-          <Divider />
-          <Typography
-            sx={{
-              fontSize: "35px",
-              color: "#000339",
-              fontWeight: "700",
-              my: 3,
-            }}
-          >
-            You’ve found a neighborhood you love.
-          </Typography>
-
-          <Typography
-            sx={{
-              fontSize: "16px",
-              color: "#5A6473",
-              lineHeight: "27px",
-            }}
-          >
-            When you own a home, you commit to living in one location for a
-            period of time. We are here to ensure that this will be a memorable
-            experience for you.
-          </Typography>
-        </Box>
-      </CustomBox>
       <CustomTextBox>
         <Box
           sx={{

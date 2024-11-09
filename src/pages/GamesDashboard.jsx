@@ -2,6 +2,17 @@ import React from "react";
 import GameCard from "../components/GameCard";
 import { useNavigate } from "react-router-dom";
 import "./GamesDashboard.css"; // Import the CSS file
+import { Typography, styled } from "@mui/material";
+
+const Title = styled(Typography)(({ theme }) => ({
+  fontSize: "64px",
+  color: "#000336",
+  fontWeight: "bold",
+  margin: theme.spacing(4, 0, 4, 0),
+  [theme.breakpoints.down("sm")]: {
+    fontSize: "40px",
+  },
+}));
 
 const GamesDashboard = () => {
   const navigate = useNavigate();
@@ -48,7 +59,7 @@ const GamesDashboard = () => {
 
   return (
     <div className="games-dashboard">
-      <h1 className="text-3xl font-bold mb-6 text-center">Games Dashboard</h1>
+                  <Title variant="h2">Games Dashboard</Title>
       <div className="games-grid">
         {games.map((game) => (
           <GameCard
