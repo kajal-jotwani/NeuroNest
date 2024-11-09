@@ -1,4 +1,3 @@
-/* src/components/GameCard.css */
 .game-card {
     background-color: #ffffff;
     border: 1px solid #e5e7eb;
@@ -15,14 +14,6 @@
   .game-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
-  }
-  
-  .game-card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 12px;
   }
   
   .game-card h2 {
