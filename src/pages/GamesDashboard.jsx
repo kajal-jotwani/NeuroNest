@@ -1,4 +1,3 @@
-import React from "react";
 import GameCard from "../components/GameCard";
 import { useNavigate } from "react-router-dom";
 import "./GamesDashboard.css"; // Import the CSS file
@@ -52,7 +51,7 @@ const GamesDashboard = () => {
       name: "Shape Sorter",
       image: "/images/word-search.jpg",
       description: "Find hidden words in the word search puzzle.",
-      route: "/Shape-sorter", // Make sure this is the correct route
+      route: "/shape-sorter",
     },
    
   ];

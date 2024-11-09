@@ -42,7 +42,7 @@ export default function Featured() {
           <Typography
             sx={{ fontSize: "35px", color: "white", fontWeight: "700" }}
           >
-            Featured Properties
+            Featured Blogs
           </Typography>
           <Typography
             sx={{ fontSize: "16px", color: "#ccc", fontWeight: "500", my: 3 }}

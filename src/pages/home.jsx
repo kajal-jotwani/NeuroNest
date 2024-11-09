@@ -1,11 +1,9 @@
-
-// * Components
 import Hero from "../components/Hero";
 import Guide from '../components/Guide'
 import Properties from "../components/Properties";
-import MoreDetail from "../components/MoreDetail";
+// import MoreDetail from "../components/MoreDetail";
 import Featured from "../components/Featured";
-import Footer from "../components/Footer";
+// import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -13,9 +11,9 @@ const Home = () => {
       <Hero />
       <Guide />
       <Properties />
-      <MoreDetail />
+      {/* <MoreDetail /> */}
       <Featured />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

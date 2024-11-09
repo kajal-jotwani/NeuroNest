@@ -33,7 +33,7 @@ export default function Reviews() {
               mt: 2,
             }}
           >
-            More than 45,000 trust NeuroSpace
+            More than 45,000 trust NeuroNest
           </Typography>
         </Box>
         <Box>

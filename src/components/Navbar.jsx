@@ -1,12 +1,10 @@
-import { useState } from "react";
+import { useState } from 'react';
+import { useAuth0 } from '@auth0/auth0-react';
+// import PropTypes from 'prop-types';
+import CustomButton from './CustomButton';
 
-// * Components
-import CustomButton from "./CustomButton";
+import logoImg from '../media/logo.png';
 
-// * Images
-import logoImg from "../media/logo.png";
-
-// * MUI Components
 import {
   Box,
   Container,
@@ -18,124 +16,130 @@ import {
   ListItemText,
   Typography,
   styled,
-  Link
-} from "@mui/material";
+  Link,
+} from '@mui/material';
 
-// * MUI Icons
-import MenuIcon from "@mui/icons-material/Menu";
-import {
-  Contacts,
-  FeaturedPlayList,
-  Home,
-  ListAlt,
-  MiscellaneousServices,
-} from "@mui/icons-material";
+import MenuIcon from '@mui/icons-material/Menu';
+import { Contacts, FeaturedPlayList, Home, ListAlt, MiscellaneousServices } from '@mui/icons-material';
 
-// * Styled Components
 const NavbarContainer = styled(Container)(({ theme }) => ({
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "space-between",
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'space-between',
   padding: theme.spacing(5),
-  [theme.breakpoints.down("md")]: {
+  [theme.breakpoints.down('md')]: {
     padding: theme.spacing(3),
   },
 }));
 
-const NavbarLogo = styled("img")(({ theme }) => ({
-  cursor: "pointer",
-  [theme.breakpoints.down("md")]: {
-    display: "none",
+const NavbarLogo = styled('img')(({ theme }) => ({
+  cursor: 'pointer',
+  [theme.breakpoints.down('md')]: {
+    display: 'none',
   },
 }));
 
 const NavbarLinkBox = styled(Box)(({ theme }) => ({
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
+  display: 'flex',
+  alignItems: 'center',
   columnGap: 25,
-  [theme.breakpoints.down("md")]: {
-    display: "none",
+  [theme.breakpoints.down('md')]: {
+    display: 'none',
   },
 }));
 
 const NavbarLink = styled(Typography)(({ theme }) => ({
-  color: "#4F5361",
-  fontWeight: "bold",
-  cursor: "pointer",
-  "&:hover": {
-    color: "#fff",
+  color: '#4F5361',
+  fontWeight: 'bold',
+  cursor: 'pointer',
+  '&:hover': {
+    color: '#fff',
   },
 }));
 
 const MenuBox = styled(Box)(({ theme }) => ({
-  cursor: "pointer",
-  [theme.breakpoints.up("md")]: {
-    display: "none",
+  cursor: 'pointer',
+  [theme.breakpoints.up('md')]: {
+    display: 'none',
   },
 }));
 
-// * Functions
 const ListComponent = () => (
   <List
     sx={{
-      display: "flex",
-      flexDirection: "column",
-      alignItems: "space-between",
-      justifyContent: "center",
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'space-between',
+      justifyContent: 'center',
       width: 200,
     }}
   >
-    {["Home", "Features", "Services", "Products", "About"].map(
-      (text, index) => (
-        <ListItem key={text} disablePadding>
-          <ListItemButton>
-            <ListItemIcon>
-              {index === 0 && <Home />}
-              {index === 1 && <FeaturedPlayList />}
-              {index === 2 && <MiscellaneousServices />}
-              {index === 3 && <ListAlt />}
-              {index === 4 && <Contacts />}
-            </ListItemIcon>
-            <ListItemText primary={text} />
-          </ListItemButton>
-        </ListItem>
-      )
-    )}
+    {['Home', 'Features', 'Services', 'Products', 'About'].map((text, index) => (
+      <ListItem key={text} disablePadding>
+        <ListItemButton>
+          <ListItemIcon>
+            {index === 0 && <Home />}
+            {index === 1 && <FeaturedPlayList />}
+            {index === 2 && <MiscellaneousServices />}
+            {index === 3 && <ListAlt />}
+            {index === 4 && <Contacts />}
+          </ListItemIcon>
+          <ListItemText primary={text} />
+        </ListItemButton>
+      </ListItem>
+    ))}
   </List>
 );
 
 export default function Navbar() {
+  const { loginWithRedirect, logout, user, isAuthenticated } = useAuth0();
   const [showMenu, setShowMenu] = useState(false);
 
   return (
     <NavbarContainer>
       <Box>
-        <MenuBox onClick={(e) => setShowMenu(true)}>
+        <MenuBox onClick={() => setShowMenu(true)}>
           <MenuIcon />
         </MenuBox>
-        <Drawer
-          anchor="left"
-          open={showMenu}
-          onClose={(e) => setShowMenu(false)}
-        >
+        <Drawer anchor="left" open={showMenu} onClose={() => setShowMenu(false)}>
           <ListComponent />
         </Drawer>
-        <NavbarLogo src={logoImg} alt="logo" />
+        <div style={{ display: 'flex', alignItems: 'center' }}>
+          <NavbarLogo src={logoImg} style={{
+            width: '50px',
+            height: '50px',
+            cursor: 'pointer',
+            borderRadius: '50%'
+          }} alt="logo" />
+          <h3 style={{ color: '#4F5361', fontWeight: 'bold'
+            , cursor: 'pointer', '&:hover': { color: '#fff', textDecoration: 'none' }, '&:active': { color: '#fff' , textDecoration: 'none' }, margin: '0 0 0 10px'
+           }}
+          >NeuroNest</h3>
+        </div>
       </Box>
 
       <NavbarLinkBox>
-        <NavbarLink><Link href="/">Home</Link></NavbarLink>
-        <NavbarLink><Link href="/games">Games</Link></NavbarLink>
+        <NavbarLink>
+          <Link href="/">Home</Link>
+        </NavbarLink>
+        <NavbarLink>
+          <Link href="/games">Games</Link>
+        </NavbarLink>
       </NavbarLinkBox>
 
-      <Box sx={{ display: "flex", alignItems: "center", columnGap: 2 }}>
-        <NavbarLink>Sign In</NavbarLink>
-        <CustomButton
-          backgroundColor="#0F1B4C"
-          color="#fff"
-          buttonText="Register"
-        ></CustomButton>
+      <Box sx={{ display: 'flex', alignItems: 'center', columnGap: 2 }}>
+        {isAuthenticated ? (
+          <>
+
+            <button style={{ backgroundColor: 'transparent', fontSize: '18px', border: 'none', cursor: 'pointer', color: '#4F5361', fontWeight: 'bold', '&:hover': { color: '#fff' } }}>
+              {user.name}
+            </button>
+            <NavbarLink onClick={() => logout({ returnTo: window.location.origin })}>Log Out</NavbarLink>
+          </>
+        ) : (
+          <NavbarLink onClick={() => loginWithRedirect()}>Sign In</NavbarLink>
+        )}
+
       </Box>
     </NavbarContainer>
   );

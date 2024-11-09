@@ -80,8 +80,7 @@ export default function Guide() {
             textAlign: "center",
           }}
         >
-          Everything you need to know when you want to buy, rent or sell - All
-          in one place
+          This is the place where we support learners with ADHD, dyslexia, and other neurological differences by providing personalized educational tools and fun, interactive games. 
         </Typography>
       </CustomBox>
 
@@ -97,7 +96,7 @@ export default function Guide() {
               my: 1,
             }}
           >
-            Buying Guides
+            Play Games
           </Typography>
           <Box
             sx={{
@@ -111,7 +110,7 @@ export default function Guide() {
               variant="body2"
               sx={{ fontWeight: "bold", fontSize: "14px", color: "#0689FF" }}
             >
-              How to buy
+             Lets Play Here
             </Typography>
             <ArrowRightAlt style={{ color: "#0689FF" }} />
           </Box>
@@ -128,7 +127,8 @@ export default function Guide() {
               my: 1,
             }}
           >
-            Renting Guides
+             Write Blogs
+            
           </Typography>
           <Box
             sx={{
@@ -142,7 +142,7 @@ export default function Guide() {
               variant="body2"
               sx={{ fontWeight: "bold", fontSize: "14px", color: "#0689FF" }}
             >
-              How to rent
+              Help by sharing
             </Typography>
             <ArrowRightAlt style={{ color: "#0689FF" }} />
           </Box>
@@ -159,7 +159,7 @@ export default function Guide() {
               my: 1,
             }}
           >
-            Selling Guides
+            Support Community
           </Typography>
           <Box
             sx={{
@@ -173,7 +173,7 @@ export default function Guide() {
               variant="body2"
               sx={{ fontWeight: "bold", fontSize: "14px", color: "#0689FF" }}
             >
-              How to sell
+              Every Support Matters
             </Typography>
             <ArrowRightAlt style={{ color: "#0689FF" }} />
           </Box>
