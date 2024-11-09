@@ -20,39 +20,39 @@ const GamesDashboard = () => {
   const games = [
     {
       name: "Reaction Time Tester",
-      image: '/images/bg2.jpg', 
+      image: '/bg2.jpg', 
       description: "Test and improve your reaction time with this fun game.",
       route: "/reaction-time-tester",
     },
     {
       name: "Memory Match",
-      image: "/images/match.jpg",
+      image: "match.jpg",
       description: "Boost your memory by matching pairs in this classic game.",
       route: "/memory-match",
     },
     {
       name: "Puzzle Slider",
-      image: "/images/puzzle-game.jpg",
+      image: "/slider.jpeg",
       description: "Solve puzzles and improve problem-solving skills.",
       route: "/puzzle-slider",
     },
     {
       name: "Number Sequence Memory",
-      image: "/images/math-challenge.jpg",
+      image: "/number.png",
       description: "Enhance your math skills with fun challenges.",
       route: "/number-sequence-memory",
     },
     {
       name: "Color Mixing Game",
-      image: "/images/maze-runner.jpg",
+      image: "/color.jpeg",
       description: "Find your way through the maze in this exciting game.",
       route: "/color-mixing-game",
     },
     {
       name: "Shape Sorter",
-      image: "/images/word-search.jpg",
+      image: "/sorter.jpeg",
       description: "Find hidden words in the word search puzzle.",
-      route: "/Shape-sorter", // Make sure this is the correct route
+      route: "/Shape-sorter", 
     },
    
   ];
@@ -67,7 +67,7 @@ const GamesDashboard = () => {
             name={game.name}
             image={game.image}
             description={game.description}
-            onStart={() => navigate(game.route)} // This navigates to the correct route
+            onStart={() => navigate(game.route)} 
           />
         ))}
       </div>
