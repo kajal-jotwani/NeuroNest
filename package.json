@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://yashikajotwani12.github.io/NeuroNest",
+  "homepage": "https://kajal-jotwani.github.io/NeuroNest",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
