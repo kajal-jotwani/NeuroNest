@@ -1,14 +1,14 @@
-# NeuroSpace: A Sanctuary for Neurodivergent Minds to Learn and Flourish
+# NeuroNest: A Sanctuary for Neurodivergent Minds to Learn and Flourish
 
-**NeuroSpace** is an inclusive learning platform designed to create a safe, engaging, and accessible space for neurodivergent students. This platform is built to support learners with ADHD, dyslexia, and other neurological differences by providing personalized educational tools and fun, interactive games. Our goal is to help students thrive by making learning enjoyable, manageable, and stress-free.
+**NeuroNest** is an inclusive learning platform designed to create a safe, engaging, and accessible space for neurodivergent students. This platform is built to support learners with ADHD, dyslexia, and other neurological differences by providing personalized educational tools and fun, interactive games. Our goal is to help students thrive by making learning enjoyable, manageable, and stress-free.
 
 ---
 
 ## 🌟 Project Intentions
 
-The idea for **NeuroSpace** emerged from a deep desire to make the learning experience more inclusive for students with neurological differences. We understand that traditional educational methods may not work for everyone, especially for students with ADHD, dyslexia, and other cognitive challenges. These students often face difficulties with focus, processing speed, emotional regulation, and retention of information. Yet, they possess unique strengths — creativity, innovation, and boundless energy — that can be harnessed to make learning both effective and enjoyable.
+The idea for **NeuroNest** emerged from a deep desire to make the learning experience more inclusive for students with neurological differences. We understand that traditional educational methods may not work for everyone, especially for students with ADHD, dyslexia, and other cognitive challenges. These students often face difficulties with focus, processing speed, emotional regulation, and retention of information. Yet, they possess unique strengths — creativity, innovation, and boundless energy — that can be harnessed to make learning both effective and enjoyable.
 
-**NeuroSpace** was created with the intention of:
+**NeuroNest** was created with the intention of:
 
 - **Providing personalized learning tools** to accommodate various learning needs.
 - **Reducing anxiety** through interactive and soothing games.
@@ -41,11 +41,11 @@ The idea for **NeuroSpace** emerged from a deep desire to make the learning expe
 
 ---
 
-## 💡 Why NeuroSpace Matters
+## 💡 Why NeuroNest Matters
 
 Learning is a deeply personal experience, and neurodivergent students deserve a space where they can feel safe, understood, and supported. 
 
-**NeuroSpace** was designed with empathy, considering the challenges and strengths of neurodivergent learners:
+**NeuroNest** was designed with empathy, considering the challenges and strengths of neurodivergent learners:
 
 - **For ADHD Students**: We’ve integrated features like gamified learning and timers to support focus, minimize distractions, and make learning fun.
 - **For Dyslexic Learners**: Adjustable fonts, color contrasts, and text-to-speech options make reading easier and reduce frustration.
@@ -62,7 +62,7 @@ By offering a platform tailored to neurodivergent students, we aim to:
 
 ## 🎮 Fun, Adaptive Games for Cognitive & Emotional Development
 
-We understand that neurodivergent learners often thrive in environments where learning is interactive and enjoyable. **NeuroSpace** includes a variety of games specifically designed to:
+We understand that neurodivergent learners often thrive in environments where learning is interactive and enjoyable. **NeuroNest** includes a variety of games specifically designed to:
 
 - **Improve focus**: Games that require attention, memory, and reaction time.
 - **Reduce anxiety**: Soothing, guided relaxation exercises to promote emotional regulation.
@@ -106,13 +106,13 @@ We welcome contributions from developers, educators, and mental health professio
 
 ## 📬 Get In Touch
 
-- **Website**: [neurospace.com](#)
-- **Email**: contact@neurospace.com
-- **GitHub**: [NeuroSpace GitHub](https://github.com/your-repo-link)
+- **Website**: [NeuroNest.com](#)
+- **Email**: contact@NeuroNest.com
+- **GitHub**: [NeuroNest GitHub](https://github.com/your-repo-link)
 
 ---
 
 ### Join the Movement
 
-Let’s work together to break down the barriers to education, one student at a time. **NeuroSpace** is more than just a platform; it's a community dedicated to creating a safe, empowering space for neurodivergent learners.
+Let’s work together to break down the barriers to education, one student at a time. **NeuroNest** is more than just a platform; it's a community dedicated to creating a safe, empowering space for neurodivergent learners.
 

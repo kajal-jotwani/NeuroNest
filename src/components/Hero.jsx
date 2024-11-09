@@ -1,6 +1,6 @@
 // * Components
 import Navbar from "./Navbar";
-import CustomButton from "./CustomButton";
+// import CustomButton from "./CustomButton";
 
 // * Images
 import HeroImg from "../media/hero_illustration.png";
@@ -58,7 +58,7 @@ export default function Hero() {
                 mb: 4,
               }}
             >
-              Welcome to NeuroSpace
+              Welcome to NeuroNest
             </Typography>
             <Title variant="h2">
               A Sanctuary for Neurodivergent Minds to Learn and Flourish
@@ -67,7 +67,7 @@ export default function Hero() {
               variant="body2"
               sx={{ fontSize: "18px", color: "#5A6473", my: 4 }}
             >
-             NeuroSpace is an inclusive learning platform designed to create a safe, engaging, and accessible space for neurodivergent students. 
+             NeuroNest is an inclusive learning platform designed to create a safe, engaging, and accessible space for neurodivergent students. 
             </Typography>
           </Box>
 

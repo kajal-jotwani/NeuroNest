@@ -29,7 +29,7 @@ export default function Properties() {
           <Typography
             sx={{ color: "#000339", fontSize: "35px", fontWeight: "bold" }}
           >
-            Featured Properties
+            Featured Blogs
           </Typography>
           <Typography sx={{ color: "#5A6473", fontSize: "16px", my: 3 }}>
             Everything you need to know when looking for a new home!
