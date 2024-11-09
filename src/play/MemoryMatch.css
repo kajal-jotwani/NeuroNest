@@ -1,0 +1,68 @@
+/* MemoryMatch.css */
+.memory-match-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f7f9;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .game-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 800px;
+    height: 500px;
+    text-align: center;
+  }
+  
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .card {
+    width: 100px;
+    height: 100px;
+    background-color: #2e3b55;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card.flipped .card-back {
+    display: none;
+  }
+  
+  .card-front {
+    font-size: 36px;
+  }
+  
+  .card-back {
+    font-size: 32px;
+    color: #888;
+  }
+  
+  .matched-count {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .game-message {
+    font-size: 18px;
+    color: #4caf50;
+    margin-bottom: 10px;
+  }
+  

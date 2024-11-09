@@ -15,7 +15,7 @@ const GameCard = ({ name, image, description, onStart }) => {
   const ImgContainer = styled(Box)(() => ({
     width: "100%",
     height: "40vh",
-    display: "flex",
+    display: "flex", 
     alignItems: "center",
     justifyContent: "center",
     overflow: "hidden",
