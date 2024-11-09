@@ -1,0 +1,27 @@
+/* src/games/PuzzleSlider.css */
+.puzzle-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+    justify-content: center;
+  }
+  
+  .puzzle-piece {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #4a90e2;
+    color: white;
+    border: 1px solid #333;
+    cursor: pointer;
+  }
+  
+  .puzzle-piece.empty {
+    background-color: #eee;
+    cursor: default;
+  }
+  
