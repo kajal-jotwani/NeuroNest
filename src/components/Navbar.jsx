@@ -130,11 +130,15 @@ export default function Navbar() {
       <Box sx={{ display: 'flex', alignItems: 'center', columnGap: 2 }}>
         {isAuthenticated ? (
           <>
-
-            <button style={{ backgroundColor: 'transparent', fontSize: '18px', border: 'none', cursor: 'pointer', color: '#4F5361', fontWeight: 'bold', '&:hover': { color: '#fff' } }}>
+            <Typography variant="body1" sx={{ color: '#4F5361', fontWeight: 'bold' }}>
               {user.name}
-            </button>
-            <NavbarLink onClick={() => logout({ returnTo: window.location.origin })}>Log Out</NavbarLink>
+            </Typography>
+            <NavbarLink onClick={() => logout({ returnTo: window.location.origin })} style={{
+              color: '#4F5361',
+              fontWeight: 'bold',
+              cursor: 'pointer',
+              '&:hover': { color: '#fff' },
+            }}>Log Out</NavbarLink>
           </>
         ) : (
           <NavbarLink onClick={() => loginWithRedirect()}>Sign In</NavbarLink>

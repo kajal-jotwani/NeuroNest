@@ -1,13 +1,16 @@
 // * Components
-import CustomButton from "./CustomButton";
+// import CustomButton from "./CustomButton";
 
 // * Images
-import buyIcon from "../media/buy_icon.png";
-import sellIcon from "../media/sell_icon.png";
-import rentIcon from "../media/rent_icon.png";
+// import buyIcon from "../media/buy_icon.png";
+// import sellIcon from "../media/sell_icon.png";
+// import rentIcon from "../media/rent_icon.png";
+import { FaGamepad } from "react-icons/fa";
+import { FaBlogger } from "react-icons/fa";
+import { FaPeopleLine } from "react-icons/fa6";
 
 // * MUI Components
-import { ArrowRightAlt } from "@mui/icons-material";
+// import { ArrowRightAlt } from "@mui/icons-material";
 import { Box, Typography, styled } from "@mui/material";
 
 // * MUI Styled Components
@@ -86,7 +89,8 @@ export default function Guide() {
 
       <GuidesBox>
         <GuideBox>
-          <img src={buyIcon} alt="buyIcon" />
+          {/* <img src={buyIcon} alt="buyIcon" /> */}
+          <FaGamepad size={30} />
           <Typography
             variant="body2"
             sx={{
@@ -97,6 +101,7 @@ export default function Guide() {
             }}
           >
             Play Games
+            
           </Typography>
           <Box
             sx={{
@@ -106,18 +111,19 @@ export default function Guide() {
               alignItems: "center",
             }}
           >
-            <Typography
+            {/* <Typography
               variant="body2"
               sx={{ fontWeight: "bold", fontSize: "14px", color: "#0689FF" }}
             >
              Lets Play Here
             </Typography>
-            <ArrowRightAlt style={{ color: "#0689FF" }} />
+            <ArrowRightAlt style={{ color: "#0689FF" }} /> */}
           </Box>
         </GuideBox>
 
         <GuideBox>
-          <img src={rentIcon} alt="buyIcon" />
+          {/* <img src={rentIcon} alt="buyIcon" /> */}
+          <FaBlogger size={30} />
           <Typography
             variant="body2"
             sx={{
@@ -138,18 +144,19 @@ export default function Guide() {
               alignItems: "center",
             }}
           >
-            <Typography
+            {/* <Typography
               variant="body2"
               sx={{ fontWeight: "bold", fontSize: "14px", color: "#0689FF" }}
             >
               Help by sharing
             </Typography>
-            <ArrowRightAlt style={{ color: "#0689FF" }} />
+            <ArrowRightAlt style={{ color: "#0689FF" }} /> */}
           </Box>
         </GuideBox>
 
         <GuideBox>
-          <img src={sellIcon} alt="buyIcon" />
+          {/* <img src={sellIcon} alt="buyIcon" /> */}
+          <FaPeopleLine size={30} />
           <Typography
             variant="body2"
             sx={{
@@ -169,23 +176,23 @@ export default function Guide() {
               alignItems: "center",
             }}
           >
-            <Typography
+            {/* <Typography
               variant="body2"
               sx={{ fontWeight: "bold", fontSize: "14px", color: "#0689FF" }}
             >
               Every Support Matters
-            </Typography>
-            <ArrowRightAlt style={{ color: "#0689FF" }} />
+            </Typography> */}
+            {/* <ArrowRightAlt style={{ color: "#0689FF" }} /> */}
           </Box>
         </GuideBox>
       </GuidesBox>
 
-      <CustomButton
+      {/* <CustomButton
         backgroundColor="#0F1B4C"
         color="#fff"
         buttonText="See Full Guides"
         guideBtn={true}
-      />
+      /> */}
     </Box>
   );
 }

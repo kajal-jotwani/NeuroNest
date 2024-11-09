@@ -3,6 +3,7 @@ import Guide from '../components/Guide'
 import Properties from "../components/Properties";
 // import MoreDetail from "../components/MoreDetail";
 import Featured from "../components/Featured";
+import FAQ from "../components/FAQ";
 // import Footer from "../components/Footer";
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
        <Featured />
       <Guide />
       <Properties />
+      <FAQ/>
       {/* <MoreDetail /> */}
      
       {/* <Footer /> */}

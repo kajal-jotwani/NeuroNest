@@ -1,0 +1,94 @@
+/* Container for the entire FAQ section */
+.faq-container {
+    margin: 30px auto;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    /* max-width: 800px; */
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Title of the FAQ section */
+  .faq-container h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333333;
+    font-weight: 600;
+  }
+  
+  /* Main list of FAQ items */
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Individual FAQ item */
+  .faq-item {
+    background-color: #fafafa;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover effect for the FAQ item */
+  .faq-item:hover {
+    background-color: #f0f4f7;
+    border-color: #bbb;
+  }
+  
+  /* Question text styling */
+  .faq-question {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2c3e50;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 0.3s ease;
+  }
+  
+  /* Change question color on hover */
+  .faq-item:hover .faq-question {
+    color: #3498db;
+  }
+  
+  /* Answer text styling */
+  .faq-answer {
+    font-size: 16px;
+    color: #6c757d;
+    line-height: 1.7;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  /* Show the answer when the question is active */
+  .faq-item.active .faq-answer {
+    opacity: 1;
+    max-height: 200px;
+  }
+  
+  /* Icon rotation effect */
+  .faq-icon {
+    font-size: 24px;
+    color: #7f8c8d;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Rotate the arrow when the FAQ item is active */
+  .faq-item.active .faq-icon {
+    transform: rotate(180deg);
+  }
+  
+  /* Optional: Add some subtle transition effects to the entire FAQ list */
+  .faq-list {
+    transition: transform 0.3s ease;
+  }
+  

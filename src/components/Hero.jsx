@@ -24,7 +24,7 @@ const CustomHeroBox = styled(Box)(({ theme }) => ({
 }));
 
 const Title = styled(Typography)(({ theme }) => ({
-  fontSize: "64px",
+  fontSize: "45px",
   color: "#000336",
   fontWeight: "bold",
   margin: theme.spacing(4, 0, 4, 0),
@@ -51,7 +51,7 @@ export default function Hero() {
             <Typography
               variant="body2"
               sx={{
-                fontSize: "18px",
+                fontSize: "27px",
                 color: "#687690",
                 fontWeight: "500",
                 mt: 10,
@@ -60,9 +60,10 @@ export default function Hero() {
             >
               Welcome to NeuroNest
             </Typography>
-            <Title variant="h2">
+            <Title variant="h4">
               A Sanctuary for Neurodivergent Minds to Learn and Flourish
             </Title>
+            
             <Typography
               variant="body2"
               sx={{ fontSize: "18px", color: "#5A6473", my: 4 }}
