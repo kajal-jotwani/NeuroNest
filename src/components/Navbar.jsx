@@ -125,6 +125,11 @@ export default function Navbar() {
         <NavbarLink>
           <Link href="/games">Games</Link>
         </NavbarLink>
+        <NavbarLink>
+          <Link href="/ai-chat">
+            AI Chat
+          </Link>
+        </NavbarLink>
       </NavbarLinkBox>
 
       <Box sx={{ display: 'flex', alignItems: 'center', columnGap: 2 }}>

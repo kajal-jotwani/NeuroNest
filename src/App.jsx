@@ -11,6 +11,7 @@ import PuzzleSlider from './play/PuzzleSlider';
 import NumberSequenceMemory from './play/NumberSequenceMemory';
 import ColorMixingGame from './play/ColorMixingGame';
 import ShapeSorter from './play/ShapeSorter';
+import ChatApp from './components/ChatApp';
 
 const App = () => {
   const { isAuthenticated } = useAuth0();
@@ -47,6 +48,7 @@ const App = () => {
         <Route path="/number-sequence-memory" element={<NumberSequenceMemory />} />
         <Route path="/color-mixing-game" element={<ColorMixingGame />} />
         <Route path="/shape-sorter" element={<ShapeSorter />} />
+        <Route path="/ai-chat" element={<ChatApp />} />
       </Routes>
     </Router>
   );
